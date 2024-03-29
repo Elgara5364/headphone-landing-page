@@ -15,9 +15,6 @@ module.exports = {
       spacing: {
         "header-height": "3rem",
       },
-      colors: {
-        "hue-color": 206,
-      },
     },
   },
   plugins: [],

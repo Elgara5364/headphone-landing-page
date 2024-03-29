@@ -1,16 +1,14 @@
 import Image from "next/image";
 import Logo from "/public/img/logo.png";
 import Link from "next/link";
+import Sidebar from "@/app/navbar/sidebar/page";
+import Navbar from "@/app/navbar/page";
 
 const LandingPage = () => {
   return (
-    <header>
-      <nav className="container">
-        <Link href="#">
-          <Image src={Logo} />
-        </Link>
-      </nav>
-    </header>
+    <>
+      <Navbar />
+    </>
   );
 };
 
