@@ -20,7 +20,7 @@ const Sidebar = ({ sendDataToParent, data }) => {
   };
 
   return (
-    <section className="block md:hidden">
+    <section className="block md:hidden z-10">
       <div>
         <button onClick={HandlerOpen}>
           <Image src={sidebarico} alt="Sidebar Button" priority width={15} />

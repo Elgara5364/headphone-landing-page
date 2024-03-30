@@ -1,13 +1,11 @@
-import Image from "next/image";
-import Logo from "/public/img/logo.png";
-import Link from "next/link";
-import Sidebar from "@/app/navbar/sidebar/page";
-import Navbar from "@/app/navbar/page";
+import Hero from "@/app/components/Hero/page";
+import Navbar from "@/app/components/navbar/page";
 
 const LandingPage = () => {
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   );
 };
