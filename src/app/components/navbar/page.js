@@ -42,7 +42,7 @@ const Navbar = () => {
           />
         </div>
         <Sidebar sendDataToParent={handlerSidebar} data={open} />
-        <div className="hidden md:flex gap-14">
+        <div className="hidden md:flex gap-14 relative ">
           {data.map((item, index) => (
             <div key={index}>
               <ul>

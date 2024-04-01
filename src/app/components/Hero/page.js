@@ -21,7 +21,7 @@ const Hero = () => {
             a sleek, streamlined design with comfortable padded earphones,
             delivering first-rate playback.
           </p>
-          <button className="flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-sm">
+          <button className="relative flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-md">
             <Image src={icoBag} width={15} height={15} />
             <p>Add to Bag</p>
             <p>$299</p>
