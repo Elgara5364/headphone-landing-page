@@ -16,7 +16,7 @@ const Case = () => {
               With a comfortable and adaptable case so that you can store it
               whenever you want, and keep your durability forever.
             </p>
-            <button className="flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-sm  items-center mx-auto">
+            <button className="flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-md items-center mx-auto sm:mx-6">
               <Image
                 src={MoreInfo}
                 width={7}
