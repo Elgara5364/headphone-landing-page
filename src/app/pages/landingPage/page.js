@@ -1,3 +1,4 @@
+import Case from "@/app/components/Case/page";
 import Hero from "@/app/components/Hero/page";
 import Specs from "@/app/components/Specs/page";
 import Navbar from "@/app/components/navbar/page";
@@ -10,6 +11,7 @@ const LandingPage = () => {
       <Hero />
       <Sponsor />
       <Specs />
+      <Case />
     </>
   );
 };
