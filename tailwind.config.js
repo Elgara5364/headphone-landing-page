@@ -5,6 +5,7 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -14,6 +15,10 @@ module.exports = {
       },
       spacing: {
         "header-height": "3rem",
+      },
+      gridTemplateColumns: {
+        "auto-fill-120": "repeat(auto-fill, minmax(120px, 1fr))",
+        "auto-fit-100": "repeat(auto-fit, minmax(120px, 1fr))",
       },
     },
   },

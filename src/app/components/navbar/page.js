@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <header id="header">
-      <nav className=" max-w-[1024px] container relative flex justify-between items-top py-3 md:pt-2 px-10 mx-auto">
+      <nav className=" max-w-[1024px] px-5 pt-5 container relative flex justify-between items-top py-3 md:pt-5 md:px-10 mx-auto">
         <div className="z-10 ">
           <Link href="#">
             <Image src={Logo} alt="Logo" width={25} />
@@ -38,7 +38,7 @@ const Navbar = () => {
             src={Headphone1}
             alt="Home"
             width={200}
-            className="min-[340px]:w-[250px] lg:w-[300px] "
+            className="min-[340px]:w-[250px] lg:w-[300px] pt-7"
           />
         </div>
         <Sidebar sendDataToParent={handlerSidebar} data={open} />

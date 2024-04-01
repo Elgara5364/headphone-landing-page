@@ -3,10 +3,10 @@ import icoBag from "/public/ico/bag-shopping-solid.svg";
 
 const Hero = () => {
   return (
-    <section className="z-20 px-5 min-[575px]:flex min-[575px]:justify-center">
+    <section className="z-20 px-5 min-[575px]:flex min-[575px]:justify-center pt-16 pb-8">
       <div className="w-[484px]"></div>
       <div className="min-[575px]:w-[484px] ">
-        <div className="pt-12">
+        <div className="">
           <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-semibold text-[80px] relative ps-3">
             On ear
           </h1>
