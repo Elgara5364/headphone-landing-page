@@ -23,7 +23,7 @@ const Case = () => {
                 height={15}
                 className="flex items-center"
               />
-              <p>More Info</p>
+              <p className="text-[#F2F2F3]">More Info</p>
             </button>
           </div>
         </div>
