@@ -41,7 +41,7 @@ const Products = () => {
         <h1 className="bg-gradient-to-b max-[340px]:text-[40px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-bold text-[56px] relative ps-3 text-center mb-10 ">
           Choose Your Style
         </h1>
-        <div className="pt-12 flex flex-wrap gap-24 min-[400px]:gap-10 justify-center">
+        <div className="pt-12 flex flex-wrap gap-24 min-[400px]:gap-10 min-[650px]:w-[600px] justify-center mx-auto px-8">
           {dataProducts.map((data, index) => (
             <div key={index}>
               <ul className="bg-[#181A1B] p-3 w-[150px] mx-auto rounded-xl sm:mb-10">
