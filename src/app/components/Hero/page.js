@@ -1,9 +1,18 @@
 import Image from "next/image";
 import icoBag from "/public/ico/bag-shopping-solid.svg";
+import Headphone1 from "/public/img/home.png";
 
 const Hero = () => {
   return (
     <section className="z-20 px-5 min-[575px]:flex min-[575px]:justify-center pt-16 pb-8">
+      <div className=" absolute right-9 top-[-13rem] min-[340px]:top-[-17rem] min-[576px]:left-0 min-[576px]:top-[-4rem] min-[700px]:left-10 lg:left-20 ms-10 lg:ms-20 lg:top-[-9rem] ">
+        <Image
+          src={Headphone1}
+          alt="Home"
+          width={200}
+          className="min-[340px]:w-[250px] lg:w-[300px] pt-7"
+        />
+      </div>
       <div className="w-[484px]"></div>
       <div className="min-[575px]:w-[484px] ">
         <div className="">
