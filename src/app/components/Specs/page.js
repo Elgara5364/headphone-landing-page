@@ -44,7 +44,9 @@ const Specs = () => {
                   index == 0 || index == 3 ? "ms-5" : ""
                 }`}>
                 <Image src={data.img} width={15} alt={data.title} />
-                <h3 className="text-[15px] font-medium">{data.title}</h3>
+                <h3 className="text-[15px] font-medium text-[#F2F2F3]">
+                  {data.title}
+                </h3>
                 <p className="text-xs text-[##BCBFC4">{data.desc}</p>
               </div>
             ))}
