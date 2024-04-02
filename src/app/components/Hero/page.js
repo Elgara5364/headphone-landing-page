@@ -15,7 +15,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="mb-10">
-          <h3 className="text-xl font-medium mb-4">Overview</h3>
+          <h3 className="text-xl font-medium mb-4 text-[#F2F2F3]">Overview</h3>
           <p className="text-[15px] text-[#BDC0C2] leading-8 mb-10 mx-auto min-[576px]:pe-1">
             Enjoy award-winning Beats sound with wireless listening freedom and
             a sleek, streamlined design with comfortable padded earphones,
