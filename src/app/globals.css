@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 * {
-  scroll-behaviour : smooth;
+  scroll-behaviour: smooth;
+}
 
 @layer utilities {
   .text-balance {

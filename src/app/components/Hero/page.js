@@ -71,8 +71,8 @@ const Hero = () => {
               width={15}
               style={{ width: "15px", height: "auto" }}
             />
-            <p>Add to Bag</p>
-            <p>$299</p>
+            <p className="text-white">Add to Bag</p>
+            <p className="text-gray-100">$299</p>
           </button>
         </div>
       </div>

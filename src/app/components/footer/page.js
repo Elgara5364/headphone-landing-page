@@ -44,7 +44,9 @@ const Footer = () => {
           </Link>
         </div>
         <div>
-          <h3 className="mb-4 font-bold text-[18px]">Products</h3>
+          <h3 className="mb-4 font-bold text-[18px] text-gray-100 cursor-default">
+            Products
+          </h3>
           <ul className="flex flex-col gap-1">
             <li className="text-[15px]] text-[#BDC0C2]">
               <Link href={"#home"}>Headphones</Link>
@@ -61,7 +63,9 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="mb-4 font-bold text-[18px]">Support</h3>
+          <h3 className="mb-4 font-bold text-[18px] text-gray-100 cursor-default">
+            Support
+          </h3>
           <ul className="flex flex-col gap-1">
             <li className="text-[15px]] text-[#BDC0C2]">
               <Link href={"#home"}>Product Help</Link>
@@ -90,7 +94,9 @@ const Footer = () => {
                 width={15}
                 style={{ width: "15px", height: "auto" }}
               />
-              <button className="p-3 bg-black rounded-lg">Subscribe</button>
+              <button className="p-3 bg-black rounded-lg text-gray-100">
+                Subscribe
+              </button>
             </div>
           </form>
           <div className="flex gap-5">

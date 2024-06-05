@@ -82,7 +82,9 @@ const Products = () => {
                   <div className="size-16"></div>
                   <div className="flex justify-between items-center">
                     <div>
-                      <h4 className="font-bold text-[13px]">{data.name}</h4>
+                      <h4 className="font-bold text-[13px] text-gray-100">
+                        {data.name}
+                      </h4>
                       <p className="text-[12px] text-[#BDC0C2]">
                         ${data.price}
                       </p>
