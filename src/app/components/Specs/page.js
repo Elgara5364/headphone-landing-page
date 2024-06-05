@@ -69,7 +69,7 @@ const Specs = () => {
   return (
     <section className="pt-16 pb-8 mx-auto" id="specs">
       <div className="container mx-auto">
-        <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-semibold text-[56px] relative ps-3 text-center mb-10">
+        <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#cfcfcf] to-[#141414] text-transparent bg-clip-text font-semibold text-[56px] relative ps-3 text-center mb-10">
           Specs
         </h1>
         <div
@@ -91,7 +91,7 @@ const Specs = () => {
                 <h3 className="text-[15px] font-medium text-[#F2F2F3]">
                   {data.title}
                 </h3>
-                <p className="text-xs text-[##BCBFC4">{data.desc}</p>
+                <p className="text-xs text-[#BCBFC4]">{data.desc}</p>
               </div>
             ))}
           </div>

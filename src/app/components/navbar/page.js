@@ -57,7 +57,7 @@ const Navbar = () => {
           {data.map((item, index) => (
             <div key={index}>
               <ul>
-                <li className="hover:text-white duration-150 bg-gradient-to-b from-[#BBC0C2] to-transparent text-transparent bg-clip-text font-bold focus:text-red-300">
+                <li className="hover:text-white duration-150 bg-gradient-to-b from-[#cfcfcf] to-transparent text-transparent bg-clip-text font-bold focus:text-red-300">
                   <Link href={item.href}>{item.name}</Link>
                 </li>
               </ul>

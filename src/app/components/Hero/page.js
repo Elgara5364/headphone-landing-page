@@ -50,10 +50,10 @@ const Hero = () => {
         }`}
         ref={myRef}>
         <div className="">
-          <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-semibold text-[80px] relative ps-3">
+          <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#cfcfcf] to-[#141414] text-transparent bg-clip-text font-semibold text-[80px] relative ps-3">
             On ear
           </h1>
-          <h2 className=" relative font-semibold top-[-2rem] text-[40px]">
+          <h2 className=" relative font-semibold top-[-2rem] text-[40px] text-gray-200">
             Beats 3
           </h2>
         </div>
@@ -64,7 +64,7 @@ const Hero = () => {
             a sleek, streamlined design with comfortable padded earphones,
             delivering first-rate playback.
           </p>
-          <button className="relative flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-md">
+          <button className="relative flex gap-4 px-5 py-4 bg-[#1b1b1e] hover:bg-[#141515] transition duration-200 rounded-md">
             <Image
               src={icoBag}
               alt="Bag"

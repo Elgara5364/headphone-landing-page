@@ -38,8 +38,10 @@ const Cta = () => {
             <h2 className="text-[#F2F2F3] font-bold text-2xl w-3/4 mb-4 mx-auto">
               Immerse yourself in your music
             </h2>
-            <p className=" mb-3 w-3/4 mx-auto">Get it now, up to 50% off.</p>
-            <button className="relative flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-md mb-10 mx-auto sm:ms-8">
+            <p className=" mb-3 w-3/4 text-gray-100 mx-auto">
+              Get it now, up to 50% off.
+            </p>
+            <button className="relative flex gap-4 px-5 py-4 bg-black hover:bg-[#3b3b3b] transition duration-200 rounded-md mb-10 mx-auto sm:ms-8">
               <Image
                 src={icoBag}
                 alt="Bag ico"

@@ -27,7 +27,7 @@ const Case = () => {
   return (
     <section className="pt-16 pb-8 " id="case">
       <div className="mx-5">
-        <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-semibold text-[56px] relative ps-3 text-center mb-10">
+        <h1 className="bg-gradient-to-b max-[340px]:text-[56px] from-[#cfcfcf] to-[#141414] text-transparent bg-clip-text font-semibold text-[56px] relative ps-3 text-center mb-10">
           Case
         </h1>
         <div
@@ -49,7 +49,7 @@ const Case = () => {
               With a comfortable and adaptable case so that you can store it
               whenever you want, and keep your durability forever.
             </p>
-            <button className="flex gap-4 px-5 py-4 bg-[#0A0A0B] hover:bg-[#141515] transition duration-200 rounded-md items-center mx-auto sm:mx-6">
+            <button className="flex gap-4 px-5 py-4 bg-[#1B1B1E] hover:bg-[#141515] transition duration-200 rounded-md items-center mx-auto sm:mx-6">
               <Image
                 src={MoreInfo}
                 alt="Information icon"

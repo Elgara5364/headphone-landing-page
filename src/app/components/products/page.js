@@ -59,7 +59,7 @@ const Products = () => {
   return (
     <section className="pt-16 pb-8" id="products">
       <div className="container mx-auto">
-        <h1 className="bg-gradient-to-b max-[340px]:text-[40px] from-[#454545] to-[#141414] text-transparent bg-clip-text font-bold text-[56px] relative ps-3 text-center mb-10 ">
+        <h1 className="bg-gradient-to-b max-[340px]:text-[40px] from-[#cfcfcf] to-[#141414] text-transparent bg-clip-text font-bold text-[56px] relative ps-3 text-center mb-10 ">
           Choose Your Style
         </h1>
         <div
